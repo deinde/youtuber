@@ -28,8 +28,8 @@ class SearchBar extends Component{
   //   console.log(event.target.value)
   // }
   onInputChange(term){
-  this.setState({term});
-  this.props.onSearchTermChange(term);
+    this.setState({term});
+    this.props.onSearchTermChange(term);
   }
 }
 
